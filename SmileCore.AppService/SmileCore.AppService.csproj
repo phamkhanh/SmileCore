@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmileCore.Domain.Data.EF\SmileCore.Domain.Data.EF.csproj" />
+    <ProjectReference Include="..\SmileCore.Domain.Data\SmileCore.Domain.Data.csproj" />
+    <ProjectReference Include="..\SmileCore.Utilities\SmileCore.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
